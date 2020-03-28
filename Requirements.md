@@ -79,7 +79,7 @@ System -up- dev
 |Driver (unregistered)|GUI            |Screen, keyboard|
 |Gas station manager  |GUI            |Screen, keyboard|
 |Developer					  |GUI, Working Environment|Screen, keyboard|
-|Map system 				  |Internet       |API						 |
+|Map system 				  |Internet       |API					 |
 
 # Stories and personas
 Paul is a well-known freelancer who travels a lot through the world because of his job.
