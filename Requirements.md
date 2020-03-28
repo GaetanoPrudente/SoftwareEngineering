@@ -148,7 +148,7 @@ drvUR -- (FR6 Manage gas station locations in DB and display them on a map)
 (FR6 Manage gas station locations in DB and display them on a map) -- ms
 ``` -->
 
-![Class Diagram](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/GaetanoPrudente/SoftwareEngineering/master/use_case_diagram.puml)
+![Class Diagram](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/GaetanoPrudente/SoftwareEngineering/master/use_case_diagram.puml/)
 
 ## Use Cases
 
