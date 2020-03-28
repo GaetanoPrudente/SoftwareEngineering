@@ -128,10 +128,10 @@ actor Gas_Station_Manager as gsm
 actor Map_System as ms
 actor Driver_registered as drvR
 actor Driver_unregistered as drvUR
-drvR -- (FR1 Record a new gas station with its relative informations - User Side)
+drvR -- (FR1 Record a new gas station with its relative informations -- User Side)
 (FR1 Record a new gas station with its relative informations - User Side) <-- (FR9 Update a gas station informations) : <<extends>>
 gsm -- (FR2 Record a new gas station with its relative informations - Gas Station Manager Side)
-(FR2 Record a new gas station with its relative informations - Gas Station Manager Side) <-- (FR9 Update a gas station informations) : <<extends>>
+(FR2 Record a new gas station with its relative informations -- Gas Station Manager Side) <-- (FR9 Update a gas station informations) : <<extends>>
 drvR -- (FR3 Produce a report about correctness of the informations about a gas station)
 drvUR -- (FR3 Produce a report about correctness of the informations about a gas station)
 drvR -- (FR4 Produce a report about suggestions for the application)
@@ -147,6 +147,7 @@ drvR -- (FR6 Manage gas station locations in DB and display them on a map)
 drvUR -- (FR6 Manage gas station locations in DB and display them on a map)
 (FR6 Manage gas station locations in DB and display them on a map) -- ms
 ``` -->
+
 
 ![Class Diagram](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/GaetanoPrudente/SoftwareEngineering/master/use_case_diagram.puml)
 
